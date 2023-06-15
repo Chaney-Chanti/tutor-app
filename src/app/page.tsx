@@ -1,17 +1,11 @@
 import CustomButton from '@/components/CustomButton';
 import Searchbar from '@/components/Searchbar';
+import {Main} from '@/components'
 
 export default function Home() {
   return (
     <main className="mainpage">
-      <Searchbar/>
-
-      <CustomButton 
-      title="EXPLORE"
-      containerStyles="bg-blue-500 text-pink-400 rounded-full p-2 content-center text-sm"
-      />
-      
-      {/* <Footer/> */}
+      <Main />
     </main>
   );
 }
